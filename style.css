@@ -1,0 +1,123 @@
+body{
+	background: radial-gradient(#fff,#000);
+}
+.wrap{
+	width: 250px;
+	margin: auto;
+}
+#search{
+	margin-top:25px;
+	//background-color: #fff;
+	padding: 10px;
+	margin-bottom: 15px;
+	width: 90%;
+}
+#message{
+	background-color: #fff;
+	text-align: center;
+	color:#f00;
+	width: 90%;
+	margin:0 auto;
+	background:#000;
+	border:1px solid #696969;
+	font-size:18px;
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+#result{
+	padding:10px;
+	//background-color: rgba(255, 251, 45, 0.4);
+	border-top:1px solid #000;
+	border-radius: 15px 0px 0px 0px;
+}
+#result img{
+	float:right;
+	max-height: 40px;
+}
+a{
+	text-decoration: none;
+	float:right;
+	color:#f00;
+}
+a:hover{
+	color:#000;
+}
+/*--------------------------------------edit-------------------------*/
+.box{
+	width:80%;
+	height: 80%;
+	background:#000;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+/*------------------------------------LEFT SIDE-------------------------*/
+.box .left{
+	width:50%;
+	height: 100%;
+	float:left;
+	border:none;
+}
+.box .left h1{
+	color:#d3d3d3;
+	text-align:center;
+}
+.box .left img{
+	width:60%;
+	height:70%;
+	position: relative;
+	left:50%;
+	transform:translateX(-50%);
+}
+/*-----------------------------------RIGHT SIDE----------------------------*/
+.box .right{
+	width: 50%;
+	height: 100%;
+	float:right;
+	background:#d3d3d3;
+	overflow:auto;
+	border:none;
+}
+.box .right button{
+	width:32%;
+	background:#d3d3d3;
+	border:none;
+	height:30px;
+	color:#f00;
+	font-size:18px;
+	text-transform: uppercase;
+	border:none;
+        outline:none;
+}
+.box .right button:hover{
+	cursor:pointer;
+	background:#fff;
+	color:#fff;
+}
+.box .right input[type="text"]{
+	width: 100%;
+	font-size:18px;
+	border:none;
+	padding:3px;
+	background:none;
+	color:#000;
+}
+.box .right input[type="submit"]{
+	background:#f3ff02;
+	margin-top:5px;
+	position: relative;
+	left:50%;
+	font-size:18px;
+	transform:translateX(-50%);
+	border:none;
+	background:#d3d3d3;
+	border:1px solid #000;
+}
+.box .right input[type="submit"]:hover{
+	background:#000;
+	color:#fff;
+}
+label{
+	font-size:20px;
+}
